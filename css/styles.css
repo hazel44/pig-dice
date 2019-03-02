@@ -11,4 +11,11 @@
     p {
       color: whitesmoke;
       font-size: 2em;
+       font-family: 'ZCOOL KuaiLe', cursive;
+    }
+    button{
+      background-color:rgb(11, 93, 175);
+      border: none;
+      color: whitesmoke;
+    
     }
