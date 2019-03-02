@@ -1,5 +1,10 @@
   body {
-    background-image: url("../images/dice-16.jpg");
+    background-image: url("../images/diceW.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    }
+    h1 {
+      text-align: center;
+      color:whitesmoke;
+      font-family: 'ZCOOL KuaiLe', cursive;
     }
