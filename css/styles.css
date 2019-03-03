@@ -1,92 +1,92 @@
-  body {
-    background-image: url("../images/diceW.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    }
-    h1 {
+body {
+      background-image: url("../images/diceW.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
+ h1 {
       text-align: center;
       color:whitesmoke;
       font-family: 'ZCOOL KuaiLe', cursive;
-    }
-    p {
+      } 
+p {
       color: whitesmoke;
       font-size: 2em;
-       font-family: 'Alegreya', serif;
-    }
-    button{
+      font-family: 'Alegreya', serif;
+      }
+button{
       background-color:rgb(11, 93, 175);
       border: none;
       color: whitesmoke;
     
     }
-    nav {
+nav {
       background-color: rgb(11, 93, 175);
       height: 60px;
-    }
-    nav ul li{
+      }
+nav ul li{
       float: left;
       list-style-type: none;
       width: 130px;
       border-right: 1px solid #1488CC;
       border-left: 1px solid #1488CC;
       text-align: center;
-    }
-    li a {
+      }
+li a {
       color: whitesmoke;
       line-height: 60px;
-    }
-    li a:hover{
+      }
+li a:hover{
       background-color: black;
       color: whitesmoke;
     }
-    nav ul {
-      width: 700px;
-      height: 60px;
-      margin: 0 auto;
-    }
+nav ul {
+     width: 750px;
+     height: 80px;
+     margin: 0 auto;
+     }
 .well h1 {
-  color: black;
- font-family: 'Alegreya', serif;
-}
+     color: black;
+     font-family: 'Alegreya', serif;
+     }
 .well p{
-  color: black;
-}
+      color: black;
+     }
 #game {
-  border: solid;
-  border-color: rgb(11, 93, 175);
-}
+     border: solid;
+     border-color: rgb(11, 93, 175);
+    }  
 
 @keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to{
-    opacity: 1;
-  }
-}
+     from {
+     opacity: 0;
+     }
+     to{
+     opacity: 1;
+      }
+    }
 .container-fadein {
-    display: flex;
-    justify-content: center;
-    margin-top: 6em;
-  }
-   .fade-in{
-    text-align: center;
-    color: #061161;
-    overflow: hidden;
-    padding: 0.4em;
-    width: 100%;
-   }
-  .fade-in h1{
-    font-size: 5em;
-    color:  #061161;
-    animation: fadein 6s ease;
-  }
-  .fade-in h2 {
-    font-size: 4em;
-    animation: fadein 7s ease;
-  }
-   .fade-in h3 {
-    margin-top: 1em;
-    font-size: 3em;
-    animation: fadein 8s ease;
-   }
+     display: flex;
+     justify-content: center;
+     margin-top: 6em;
+    }
+.fade-in{
+     text-align: center;
+     color: #061161;
+     overflow: hidden;
+     padding: 0.4em;
+     width: 100%;
+    }
+.fade-in h1{
+     font-size: 5em;
+     color:  #061161;
+     animation: fadein 6s ease;
+    }
+.fade-in h2 {
+     font-size: 4em;
+     animation: fadein 7s ease;
+    }
+.fade-in h3 {
+     margin-top: 1em;
+     font-size: 3em;
+     animation: fadein 8s ease;
+    }
