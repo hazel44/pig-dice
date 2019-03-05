@@ -27,6 +27,7 @@ PigDicePlayer.prototype.rollsdice = function(){
 
 
 // User interface logic
+//player1
 
 $(document).ready(function(){
     $("#play").click(function(event){
@@ -40,3 +41,16 @@ $("#play #player1rolls").click(function(){
     });
 
 });
+// player 2
+$(document).ready(function(){
+    $("#play2").click(function(event){
+event.preventDefault();
+
+//Display value after dice is rolled for player 2
+$("#play2 #player2rolls").click(function(){
+    $("#col").text(diceRolled)
+})
+    });
+});
+
+

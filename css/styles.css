@@ -1,9 +1,4 @@
-body {
-      background-image: url("../images/diceW.jpg");
-      background-repeat: no-repeat;
-      background-size: cover;
-      }
- h1 {
+h1 {
       text-align: center;
       color:whitesmoke;
       font-family: 'ZCOOL KuaiLe', cursive;
@@ -44,12 +39,19 @@ nav ul {
      height: 80px;
      margin: 0 auto;
      }
+     .well {
+         font-family: 'Alegreya', serif;
+         background-color: whitesmoke;
+     }
+
+          /*font-family: 'Alegreya', serif*/
 .well h1 {
      color: black;
-     font-family: 'Alegreya', serif;
+     
      }
 .well p{
       color: black;
+
      }
 #game {
      border: solid;
@@ -71,14 +73,14 @@ nav ul {
     }
 .fade-in{
      text-align: center;
-     color: red;
+     color: black;
      overflow: hidden;
      padding: 0.4em;
      width: 100%;
     }
 .fade-in h1{
      font-size: 5em;
-     color:  red;
+     color: black;
      animation: fadein 6s ease;
     }
 .fade-in h2 {
@@ -87,6 +89,18 @@ nav ul {
     }
 .fade-in h3 {
      margin-top: 1em;
-     font-size: 3em;
+     font-size: 2em;
      animation: fadein 8s ease;
     }
+    #col {
+         border: solid;
+         border-color:  rgb(11, 93, 175);
+         background-color: black;
+         font-size: 1.5em;
+         color: white;
+    }
+    body {
+      background-image: url("../images/diceH.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      }
