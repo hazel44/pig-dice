@@ -104,3 +104,11 @@ nav ul {
       background-repeat: no-repeat;
       background-size: cover;
       }
+      #footer {
+           font-size: 1em;
+           text-align: center;
+           background-color: #00B4DB;
+           color: whitesmoke;
+           font-weight: bold;
+           border: none;
+      }
