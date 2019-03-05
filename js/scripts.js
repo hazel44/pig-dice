@@ -16,8 +16,8 @@ PigDicePlayer.prototype.rollsdice = function(){
   var diceRolled = Math.floor(Math.random()*6)+1;
 
   if (diceRolled >1 ){
-      this.currentroll += diceRolled;
-      this.currentscore += 1;
+      this.currentroll >= diceRolled;
+      this.currentscore >= 1;
       //return dicerolled;
       }
       else if(diceRolled === 1){
@@ -52,5 +52,5 @@ $("#play2 #player2rolls").click(function(){
 })
     });
 });
-
-
+ 
+// 
