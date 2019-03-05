@@ -71,14 +71,14 @@ nav ul {
     }
 .fade-in{
      text-align: center;
-     color: #061161;
+     color: red;
      overflow: hidden;
      padding: 0.4em;
      width: 100%;
     }
 .fade-in h1{
      font-size: 5em;
-     color:  #061161;
+     color:  red;
      animation: fadein 6s ease;
     }
 .fade-in h2 {
